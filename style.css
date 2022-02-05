@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-direction: column;
+  padding: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%);
+}
+
+.result {
+  font-size: xx-large;
+  animation: fade 2s ease-in-out;
+  /* font-family: "Heroes Assemble"; */
+}
+
+.controllers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.rock,
+.paper,
+.scissor {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+/* .rock:hover,
+.paper:hover,
+.scissor:hover {
+  filter: hue-rotate(180deg);
+} */
+
+.rock:hover,
+.paper:hover,
+.scissor:hover {
+  background-color: crimson;
+  border-radius: 50%;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arena {
+  display: flex;
+  min-width: 80%;
+  min-height: 30vh;
+  background-color: greenyellow;
+  border: 10px double brown;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.logo {
+  font-family: "Syne Tactile", cursive;
+}
+
+/* .user-choice {
+    transition: all 100ms ease;
+    transform: translateX(12);
+    } */
+
+.arena-pic {
+  animation: fade 2s ease-in-out;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.user-board,
+.pc-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.scores {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 1rem;
+  box-shadow: 0px 15px 30px rgb(0 0 0 / 15%);
+}
+
+/* Font Face */
+
+/* @font-face {
+  font-family: "Christmas Story";
+  src: url("Fonts\\christmas-story-font\\ChristmasStory-3zXXy.ttf");
+  font-family: "Endgame Regular";
+  src: url("Fonts\end-gamer-font\EndgamerRegular-6Odv.ttf");
+} */
+
+@font-face {
+  font-family: "Endgame Regular";
+  src: url("Fonts\end-gamer-font\EndgamerRegular-6Odv.ttf");
+}
+
+@font-face {
+  font-family: "Heroes Assemble";
+  src: url("Fonts\heroes-assemble-font\HeroesAssembleBoldExpandtalic-qEn1.ttf");
+}
+
+@font-face {
+  font-family: "Madrigal Font";
+  src: url("Fonts\madrigal-font\Madrigal-mLJ92.ttf");
+}
+
+@font-face {
+  font-family: "Yesterday Font";
+  src: url("Fonts\yesterday-font\Yesterday-PKd8r.otf");
+}
