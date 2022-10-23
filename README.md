@@ -7,4 +7,4 @@ This is what it does,, Rock Paper Scissor
 
 ## Live Link
 
-[Live Link] (https://swarupvishwas18.github.io/rock-paper-scissor/index.html)
+[Live Link](https://swarupvishwas18.github.io/rock-paper-scissor/index.html)
